@@ -12,7 +12,7 @@ class Detector():
                 if match_reg_exp != [] :
                     data_to_return.append(match_reg_exp)
                 data_regExp = str(match_reg_exp).strip('[]')
-                print("-----------------___>>>>>>>----->>>> " + data_regExp)
+                #print("-----------------___>>>>>>>----->>>> " + data_regExp)
                 #data_to_return.append(data_regExp)
                 evidences = open (output_file_name,'a')
                 evidences.write(data_regExp)

@@ -6,7 +6,7 @@ class ToScrapeSpiderXPath(scrapy.Spider):
     name = 'toscrape-xpath'
     start_urls = [
         'https://www.forocoches.com/foro/showthread.php?t={tx}'.format(tx=tx)
-            for tx in range(7250000, 7250001) 
+            for tx in range(1, 7300000) 
     ]
 
     def parse(self, selector):
